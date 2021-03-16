@@ -360,9 +360,9 @@
 	        this.newRigWorldPosition.sub(teleportOriginWorldPosition).add(this.rigWorldPosition);
 	      }
 
-	      // Always keep the rig at the same offset off the ground after teleporting
-	      this.newRigWorldPosition.y = this.rigWorldPosition.y + this.hitPoint.y - this.prevHitHeight;
-	      this.prevHitHeight = this.hitPoint.y;
+// 	      // Always keep the rig at the same offset off the ground after teleporting
+// 	      this.newRigWorldPosition.y = this.rigWorldPosition.y + this.hitPoint.y - this.prevHitHeight;
+// 	      this.prevHitHeight = this.hitPoint.y;
 
 	      // Finally update the rigs position
 	      newRigLocalPosition.copy(this.newRigWorldPosition);
